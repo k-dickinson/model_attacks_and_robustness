@@ -35,7 +35,7 @@ We assess attack effectiveness across multiple dimensions:
 #### Experimental Setup
 
 - **Dataset**: IMDB movie review test set
-- **Sample Size**: 5 examples per attack method (expandable for full evaluation)
+- **Sample Size**: 20 examples per attack method (expandable for full evaluation)
 - **Reproducibility**: Fixed random seed (42) across all experiments
 - **Hardware**: CUDA-enabled GPU support with fallback to CPU
 
