@@ -5,8 +5,8 @@ This project investigates and improves the adversarial robustness of BERT-based 
 ## Project Overview
 
 The project is divided into two main components:
-1. [**Adversarial Attack Analysis**](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/imdb_Model_Attacks.ipynb) - Comprehensive evaluation of model vulnerabilities
-2. [**Robustness Enhancement**](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/imdb_model_improved_robustness.ipynb) - Defensive training and model improvements
+1. [**Adversarial Attack Analysis**](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/Final_imdb_Model_Attacks.ipynb) - Comprehensive evaluation of model vulnerabilities
+2. [**Robustness Enhancement**](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/Final_imdb_model_improved_robustness.ipynb) - Defensive training and model improvements
 
 ## Part 1: Adversarial Attack Analysis
 
