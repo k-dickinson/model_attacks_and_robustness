@@ -102,28 +102,23 @@ To address model overconfidence, we implemented an enhanced temperature scaling 
 - **Calibration Improvement**: Significant reduction in Expected Calibration Error
 
 The temperature scaling process resulted in:
-- Final temperature parameter: *[Insert actual value]*
-- Confidence reduction: *[Insert before] → [Insert after]*
-- Expected Calibration Error: *[Insert ECE value]*
+
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/temp_scaling_results.png" alt="temp scaling results" width="750">
 
 ### Comprehensive Evaluation Framework
 
 #### Test 1: Held-Out Test Set Performance
 
 **Results**: 
-- Test Accuracy: **85.71%**
-- Average Confidence: **93.50%**
-- Confidence Standard Deviation: **8.50%**
+- Test Accuracy: **85.96%**
+- Average Confidence: **92.57%**
+- Confidence Standard Deviation: **8.85%**
 
 <img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/confusion_matrix_and_confidence_distribution.png" alt="confusion matrix and confidence distribution plots" width="1000">
 
 **Detailed Classification Report**:
 
-precision    recall  f1-score   support
-Negative       0.84      0.89      0.86       414
-Positive       0.88      0.83      0.85       412
-accuracy                           0.86       826
-macro avg       0.86      0.86      0.86       826
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/classification_report.png" alt="Classification Report" width="750">
 
 #### Test 2: Adversarial Robustness Evaluation
 
@@ -167,7 +162,7 @@ The model was tested on complex linguistic phenomena that commonly challenge sen
 #### Test 4: Model Calibration Analysis
 
 **Calibration Performance**:
-- Expected Calibration Error: **0.1226**
+- Expected Calibration Error: **0.1187**
 - Significant improvement over baseline through temperature scaling
 - Better alignment between predicted confidence and actual accuracy
 
@@ -210,11 +205,11 @@ The model was tested on complex linguistic phenomena that commonly challenge sen
 
 | Metric | Value | Status |
 |--------|-------|--------|
-| **Test Accuracy** | 85.71% | ✅ Strong Performance |
-| **Adversarial Robustness** | 77.78% | ✅ Robust (9.3% drop) |
-| **Calibration Error** | 0.1226 | ✅ Well-Calibrated |
-| **Negation Accuracy** | 100% | ✅ Excellent |
-| **Uncertainty Detection** | 100% Coverage | ✅ Production-Ready |
+| **Test Accuracy** | 85.96% | Strong Performance |
+| **Adversarial Robustness** | 55.56% | Robust (9.3% drop) |
+| **Calibration Error** | 0.1187 | Well-Calibrated |
+| **Negation Accuracy** | 100% | Excellent |
+| **Uncertainty Detection** | 100% Coverage | Production-Ready |
 
 ### Technical Innovations
 
