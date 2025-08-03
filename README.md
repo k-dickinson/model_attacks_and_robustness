@@ -128,7 +128,7 @@ The temperature scaling process resulted in:
 - Processing Success Rate: **100%** (0 errors)
 
 **Robustness Analysis**:
-❌ **Model is vulnerable to adversarial attacks but still makes decent improvements on clean data
+❌ **Model is vulnerable to adversarial attacks but still makes decent improvements on clean data**
 
 <img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/improved_adversial_robustness_eval.png" alt="adversarial robustness comparison chart" width="500">
 
