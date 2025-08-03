@@ -79,7 +79,7 @@ Our training approach combines multiple data sources for maximum robustness:
 - **Negation-Aware Data**: 120 custom examples targeting double negatives and subtle sentiment patterns
 - **Quality Filtering**: Comprehensive text validation including length constraints and corruption detection
 
-*[Insert training data distribution chart here]*
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/training_data_chart.png" alt="training data distribution chart" width="1000">
 
 #### Advanced Training Configuration
 
@@ -101,8 +101,6 @@ To address model overconfidence, we implemented an enhanced temperature scaling 
 - **Confidence Reduction**: Systematic reduction of overconfident predictions
 - **Calibration Improvement**: Significant reduction in Expected Calibration Error
 
-*[Insert before/after calibration plots here]*
-
 The temperature scaling process resulted in:
 - Final temperature parameter: *[Insert actual value]*
 - Confidence reduction: *[Insert before] → [Insert after]*
@@ -117,7 +115,7 @@ The temperature scaling process resulted in:
 - Average Confidence: **93.50%**
 - Confidence Standard Deviation: **8.50%**
 
-*[Insert confusion matrix and confidence distribution plots here]*
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/confusion_matrix_and_confidence_distribution.png" alt="confusion matrix and confidence distribution plots" width="1000">
 
 **Detailed Classification Report**:
 
@@ -137,7 +135,7 @@ macro avg       0.86      0.86      0.86       826
 **Robustness Analysis**:
 ✅ **Model demonstrates strong adversarial robustness** with less than 10% accuracy degradation under attack conditions.
 
-*[Insert adversarial robustness comparison chart here]*
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/improved_adversial_robustness_eval.png" alt="adversarial robustness comparison chart" width="500">
 
 **Sample Adversarial Predictions**:
 
@@ -166,8 +164,6 @@ The model was tested on complex linguistic phenomena that commonly challenge sen
 - "Beautiful cinematography ruined by poor dialogue" → Negative (0.951)
 - "I loved the music but hated everything else" → Negative (0.503)
 
-*[Insert linguistic challenge performance breakdown chart here]*
-
 #### Test 4: Model Calibration Analysis
 
 **Calibration Performance**:
@@ -175,7 +171,7 @@ The model was tested on complex linguistic phenomena that commonly challenge sen
 - Significant improvement over baseline through temperature scaling
 - Better alignment between predicted confidence and actual accuracy
 
-*[Insert calibration curve/reliability diagram here]*
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/calibration_analysis.png" alt="calibration plot" width="750">
 
 #### Test 5: Uncertainty Detection and Quality Assurance
 
@@ -192,7 +188,7 @@ The model was tested on complex linguistic phenomena that commonly challenge sen
 | "Oh great, another generic action movie" | Negative | 0.929 | 0.368 | ✓ |
 | "Wow, what a masterpiece of cinema" | Positive | 0.955 | 0.266 | ✓ |
 
-*[Insert uncertainty distribution visualization here]*
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/uncertainty_review_flagging.png" alt="uncertainty distribution visualization" width="750">
 
 ### Production-Ready Features
 
