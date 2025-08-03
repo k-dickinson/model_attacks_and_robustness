@@ -123,12 +123,12 @@ The temperature scaling process resulted in:
 #### Test 2: Adversarial Robustness Evaluation
 
 **Key Findings**:
-- Adversarial Accuracy: **77.78%**
-- Robustness Drop: **7.94%** (9.3% decrease from clean accuracy)
+- Adversarial Accuracy: **55.56%**
+- Robustness Drop: **30.40%** (35.4% decrease from clean accuracy)
 - Processing Success Rate: **100%** (0 errors)
 
 **Robustness Analysis**:
-✅ **Model demonstrates strong adversarial robustness** with less than 10% accuracy degradation under attack conditions.
+❌ **Model is vulnerable to adversarial attacks but still makes decent improvements on clean data
 
 <img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/improved_adversial_robustness_eval.png" alt="adversarial robustness comparison chart" width="500">
 
@@ -136,9 +136,9 @@ The temperature scaling process resulted in:
 
 | Status | True Label | Predicted | Confidence | Text Preview |
 |--------|------------|-----------|------------|--------------|
-| ❌ | 0 | 1 | 0.967 | Isaac Florentine has [[influenced]] some of the best western... |
-| ✅ | 0 | 0 | 0.961 | Blind Date (Columbia Pictures, 1934), was a decent film... |
-| ✅ | 0 | 0 | 0.518 | Worth the entertainment value of a rental, especially... |
+| ❌ | 0 | 1 | 0.957 | Isaac Florentine has [[influenced]] some of the best western... |
+| ✅ | 0 | 0 | 0.938 | Blind Date (Columbia Pictures, 1934), was a decent film... |
+| ❌ | 0 | 1 | 0.953 | Worth the entertainment value of a rental, especially... |
 
 #### Test 3: Linguistic Challenge Evaluation
 
