@@ -127,7 +127,7 @@ The temperature scaling process resulted in:
 - Robustness Drop: **30.40%** (35.4% decrease from clean accuracy)
 - Processing Success Rate: **100%** (0 errors)
 
-❌ **Model is vulnerable to adversarial attacks but still makes decent improvements on clean data**
+❌ **Model is vulnerable to adversarial attacks but still makes decent improvements**
 
 **Robustness Analysis**:
 
