@@ -239,32 +239,12 @@ This project demonstrates a systematic approach to building robust, well-calibra
 
 *[Insert installation instructions here]*
 
-## Repository Structure
-
-*[Insert file structure here]*
-
-## Usage
-
-### Quick Start
-
-*[Insert basic usage example here]*
-
 ### Advanced Usage
 
 *[Insert advanced usage with uncertainty detection here]*
 
-## Reproducing Results
-
-*[Insert step-by-step reproduction instructions here]*
-
 ## Citation
 
 *[Insert citation format here]*
-
-## License
-
-*[Insert license information here]*
-
-## Acknowledgments
 
 *[Insert acknowledgments here]*
