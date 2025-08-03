@@ -201,7 +201,7 @@ The model was tested on complex linguistic phenomena that commonly challenge sen
 | Metric | Value | Status |
 |--------|-------|--------|
 | **Test Accuracy** | 85.96% | Strong Performance |
-| **Adversarial Robustness** | 55.56% | Robust (30.40% drop) |
+| **Adversarial Robustness** | 55.56% | Somewhat Robust (30.40% drop) |
 | **Calibration Error** | 0.1187 | Well-Calibrated |
 | **Negation Accuracy** | 100% | Excellent |
 | **Uncertainty Detection** | 100% Coverage | Production-Ready |
@@ -220,7 +220,7 @@ The model was tested on complex linguistic phenomena that commonly challenge sen
 This project demonstrates a systematic approach to building robust, well-calibrated sentiment analysis models suitable for production deployment. The combination of adversarial training, enhanced calibration, and comprehensive evaluation provides a strong foundation for reliable real-world performance.
 
 **Key Achievements**:
-- Less than 50% robustness degradation under adversarial conditions
+- Less than 35% robustness degradation under adversarial conditions (could be improved significantly)
 - Significant calibration improvement through enhanced temperature scaling
 - Perfect performance on challenging linguistic patterns (negation, sarcasm)
 - Production-ready uncertainty detection for quality assurance
