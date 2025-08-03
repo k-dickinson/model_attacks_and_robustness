@@ -235,9 +235,10 @@ This project demonstrates a systematic approach to building robust, well-calibra
 
 *[Insert requirements.txt content here]*
 
-## Installation
+## Code
 
-*[Insert installation instructions here]*
+[Code for Part 1](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/Final_imdb_Model_Attacks.ipynb)
+[Code for Part 2](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/Final_imdb_model_improved_robustness.ipynb)
 
 ### Advanced Usage
 
