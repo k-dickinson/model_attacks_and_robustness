@@ -231,27 +231,42 @@ This project demonstrates a systematic approach to building robust, well-calibra
 - Perfect performance on challenging linguistic patterns (negation, sarcasm)
 - Production-ready uncertainty detection for quality assurance
 
-**Future Work**:
-- Scaling evaluation to larger adversarial test sets
-- Integration with additional attack methods beyond BAE
-- Extension to multi-class sentiment analysis
-- Real-world deployment validation
-
-## Requirements
-
-*[Insert requirements.txt content here]*
-
 ## Code
 
 - [Code for Part 1](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/Final_imdb_Model_Attacks.ipynb)
 - [Code for Part 2](https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/notebooks/Final_imdb_model_improved_robustness.ipynb)
 
-### Advanced Usage
+### Possible Future Improvements
 
-*[Insert advanced usage with uncertainty detection here]*
+- **Large-Scale Evaluation**: Expand adversarial testing to full IMDB test set (25,000 examples) and cross-dataset validation on Yelp/Amazon reviews for comprehensive robustness assessment
+- **Multi-Attack Ensemble Training**: Implement simultaneous training against all four attack methods (TextFooler, DeepWordBug, PWWS, BAE) to improve cross-attack generalization and reduce the current 30% robustness gap
+- **Production Attack Detection**: Develop real-time monitoring system using linguistic anomaly detection to identify potential adversarial inputs in deployment, with automated flagging for human review
+- **Certified Robustness Integration**: Explore mathematically guaranteed defense methods (IBP, CROWN) to provide formal robustness bounds rather than empirical evaluation alone
 
-## Citation
+## References
 
-*[Insert citation format here]*
+### Attack Methods:
 
-*[Insert acknowledgments here]*
+**TextFooler**: Jin, D., Jin, Z., Zhou, J. T., & Szolovits, P. (2019). Is BERT really robust? A strong baseline for natural language attack on text classification and entailment. *arXiv preprint arXiv:1907.11932*.
+
+**DeepWordBug**: Gao, J., Lanchantin, J., Soffa, M. L., & Qi, Y. (2018). Black-box generation of adversarial text sequences to evade deep learning classifiers. *IEEE Security and Privacy Workshops*, 50-56.
+
+**PWWS**: Ren, S., Deng, Y., He, K., & Che, W. (2019). Generating natural language adversarial examples through probability weighted word saliency. *Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics*, 1085-1097.
+
+**BAE**: Garg, S., & Ramakrishnan, G. (2020). BAE: BERT-based adversarial examples for text classification. *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing*, 6174-6181.
+
+### Frameworks and Tools:
+
+**TextAttack**: Morris, J., Lifland, E., Yoo, J. Y., Grigsby, J., Jin, D., & Qi, Y. (2020). TextAttack: A framework for adversarial attacks, data augmentation, and adversarial training in NLP. *Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations*, 119-126.
+
+**BERT**: Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of deep bidirectional transformers for language understanding. *arXiv preprint arXiv:1810.04805*.
+
+### Robustness and Calibration:
+
+**Temperature Scaling**: Guo, C., Pleiss, G., Sun, Y., & Weinberger, K. Q. (2017). On calibration of modern neural networks. *International Conference on Machine Learning*, 1321-1330.
+
+**Adversarial Training**: Madry, A., Makelov, A., Schmidt, L., Tsipras, D., & Vladu, A. (2017). Towards deep learning models resistant to adversarial attacks. *arXiv preprint arXiv:1706.06083*.
+
+### Dataset:
+
+**IMDB Dataset**: Maas, A., Daly, R. E., Pham, P. T., Huang, D., Ng, A. Y., & McCallum, A. (2011). Learning word vectors for sentiment analysis. *Proceedings of the 49th annual meeting of the association for computational linguistics: Human language technologies*, 142-150.
