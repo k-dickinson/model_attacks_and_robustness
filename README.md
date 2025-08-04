@@ -2,6 +2,10 @@
 
 This project investigates and improves the adversarial robustness of BERT-based sentiment analysis models through comprehensive attack evaluation and defensive training techniques.
 
+##TL;DR
+
+Built a BERT sentiment classifier that maintains 86% clean accuracy and 56% adversarial robustness through enhanced training and calibration.
+
 ## Project Overview
 
 The project is divided into two main components:
@@ -40,6 +44,8 @@ We assess attack effectiveness across multiple dimensions:
 - **Hardware**: CUDA-enabled GPU support with fallback to CPU
 
 #### Key Findings
+
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/model_attack_results.png" alt="model attacks" width="750">
 
 The analysis revealed significant vulnerabilities in the baseline BERT model across all attack methods. Based on the comprehensive evaluation metrics, **BAE (BERT-based Adversarial Examples)** was selected as the primary attack method for subsequent robustness training due to its:
 
