@@ -45,7 +45,7 @@ We assess attack effectiveness across multiple dimensions:
 
 #### Key Findings
 
-<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/model_attack_results.png" alt="model attacks" width="750">
+<img src="https://github.com/k-dickinson/model_attacks_and_robustness/blob/main/visuals/model_attack_results.png" alt="model attacks" width="500">
 
 The analysis revealed significant vulnerabilities in the baseline BERT model across all attack methods. Based on the comprehensive evaluation metrics, **BAE (BERT-based Adversarial Examples)** was selected as the primary attack method for subsequent robustness training due to its:
 
