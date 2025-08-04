@@ -2,7 +2,7 @@
 
 This project investigates and improves the adversarial robustness of BERT-based sentiment analysis models through comprehensive attack evaluation and defensive training techniques.
 
-##TL;DR
+## TL;DR
 
 Built a BERT sentiment classifier that maintains 86% clean accuracy and 56% adversarial robustness through enhanced training and calibration.
 
